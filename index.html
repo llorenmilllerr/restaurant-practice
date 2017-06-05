@@ -11,6 +11,7 @@
 </head>
 <body>
 
+
 <!-- NAV BAR -->
 <header class="container-fluid">
   <div class="flex">
@@ -22,8 +23,8 @@
     <!-- NAV -->
     <ul class="nav nav-pills pull-right">
       <li role="presentation" ><a href="index.html">Hours</a></li>
-      <li role="presentation"><a href="prodects.html">Menu</a></li>
-      <li role="presentation"><a href="contact.html">Gallery</a></li>
+      <li role="presentation"><a href="#">Menu</a></li>
+      <li role="presentation"><a href="#">Gallery</a></li>
     </ul>
   </div>
 </header>
@@ -31,8 +32,8 @@
 <!-- JUMBOTRON -->
 <div class="jumbotron">
   <div class="wrapper">
-    <p class="white-text text-center">We make the best sushi</p>
-    <h1 class="text-uppercase white-text text-center">you will be so full and happy <br> and will have a great day</h1>
+    <p class="white-text text-center">Amazing Food. Amazing Service.</p>
+    <h1 class="white-text text-center">Authentic Japanese cuisine served in the heart of Fresno.</h1>
   </div>
 </div>
 
@@ -87,9 +88,15 @@
   </div>
 </div>
 
-
 <!-- CAROUSEL -->
 <div class="carousel slide" id="myCarousel">
+
+  <!-- INDICATORS -->
+  <ol class="carousel-indicators">
+    <li class="active" data-slide-to="0" data-target="#myCarousel"></li>
+    <li data-slide-to="1" data-target="#myCarousel"></li>
+    <li data-slide-to="2" data-target="#myCarousel"></li>
+  </ol>
 
   <!-- WRAPPER FOR SLIDES -->
   <div class="carousel-inner">
@@ -107,12 +114,17 @@
     </div>
     <div class="item" id="slide3">
       <div class="carousel-caption">
-        <h4>Fresh Fish</h4>
+        <h4>Fresh Feesh</h4>
         <p>Only the freshest fish sourced directly from the hand that caught it.</p>
       </div>
     </div>
-  </div>
-</div>
+  </div> <!-- WRAPPERS END -->
+
+  <!-- CONTROLS -->
+  <a href="#myCarousel" data-slide="prev" class="left carousel-control"><span class="icon-prev"></span></a>
+  <a href="#myCarousel" data-slide="next" class="right carousel-control"><span class="icon-next"></span></a>
+
+</div> <!--CAROUSEL END -->
 
 
 <!-- FOOTER -->
