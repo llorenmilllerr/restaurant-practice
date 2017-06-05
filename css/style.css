@@ -1,0 +1,149 @@
+/*========== GLOBAL =========*/
+
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond:500,700i|Open+Sans:400,400i');
+
+/*font-family: 'Cormorant Garamond', serif;
+font-family: 'Open Sans', sans-serif;*/
+
+.white-text {
+  color: #fff;
+}
+
+
+
+/*========== HEADER ==========*/
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+  height: 50px;
+}
+
+.logo, #brand {
+  height: 50px;
+}
+
+#brand {
+  font-family: 'Cormorant Garamond', serif;
+  color: #FF827B; /*orange accent color*/
+  font-size: 42px;
+}
+
+header ul.nav-pills {
+  font-size: 18px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+header ul.nav-pills a {
+  color: #FF827B;
+}
+
+
+/*========== JUMBOTRON ==========*/
+
+.jumbotron {
+  height: 775px;
+  background-image: url('../img/chef-hands.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+.wrapper {
+  height:200px;
+  width: 50%;
+  margin:0 auto;
+  margin-top: 200px;
+}
+
+.jumbotron p {
+  font-size: 24px;
+  color: #fff;
+
+}
+
+.jumbotron h1 {
+  font-size: 36px;
+  color: #fff;
+}
+
+/*========== HOURS OF BUSINESS ==========*/
+
+.sectiontwo {
+  height: 775px;
+  padding-top: 200px;
+}
+
+.hours {
+  margin-top: 100px;
+}
+
+thead td {
+  text-align: center;
+  font-family: 'Cormorant Garamond', serif
+}
+
+tr>td {
+  font-family: 'Open Sans', sans-serif;
+}
+
+td:nth-child(2) {
+  text-align: right;
+}
+
+/*========== MAP ==========*/
+
+iframe {
+  height: 500px;
+  width: 100%;
+}
+
+
+
+
+
+
+
+
+
+/*========== FOOTER ==========*/
+
+footer {
+  height:100px;
+  background-color: #fff;
+
+}
+
+address, address a {
+  font-family: 'Open Sans', sans-serif;
+  color: #FF827B;
+  font-size: 12px;
+}
+
+.border {
+  border-right: 1px solid #FF827B;
+}
+
+.stuff {
+  height: 100%;
+}
+
+.stuff>div {
+  height: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.*/
